@@ -28,7 +28,9 @@ The tracing process was probably the hardest part i had to experience in this pr
 <img width="1189" height="790" alt="Screenshot_20261012_171707" src="https://github.com/user-attachments/assets/503fc242-72d4-4d8f-b76b-200f3b68c376" />
 
 **PCB**
+
 <img width="596" height="394" alt="image" src="https://github.com/user-attachments/assets/55516ed5-d39d-4dc8-8fec-eb543f73cc92" />
+
 <img width="614" height="412" alt="image" src="https://github.com/user-attachments/assets/cc5b3a41-abcc-4b3d-a632-71a4dc266aa5" />
 
 
