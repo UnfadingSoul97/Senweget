@@ -22,7 +22,7 @@ split = Split(
     split_type = SplitType.UART,
     data_pin = board.GP5  ## TRS Pin 
     split_flip = True,
-)
+    )
 senweget.modules.append(split)
 
 senweget.modules.col_pins = (
@@ -82,6 +82,9 @@ senweget.keymap = [
      KC.LGUI,
      LOWER,
      KC.SPC,
+     KC.SPC,
+     KC.Raise
+     KC.RGUI,
    ],
 ]
 if __name__ == "__main__":
