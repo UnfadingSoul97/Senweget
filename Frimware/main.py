@@ -42,14 +42,26 @@ senweget.modules.row_pins = (
 )
 senweget.modules.diode_orientation = DiodeOrientation.COL2ROW
 
-encoder_handler.pins = ((board.GP29, board.GP8,board.GP14),)  # Encoder pins
+encoder_handler.pins = ((board.GP29, board.GP8,board.GP14),)  # Encoder left
+encoder_handler.pins = ((board.GP29, board.GP8,board.GP14),)  # Encoder right
 
 encoder_handler.map = [
-    ((KC.VOLD, KC.VOLU, KC.MUTE),), # Layer 0:Volume control 
-    ((KC.MS_WH_UP, KC.MS_WH_DN, KC.TRNS),), # Layer 1: SCROLL
-    ((KC.BRID, KC.BRIU, KC.TRNS),), # Layer 2: BRIGHTNESS
-]
-
+    # Layer 0:Volume control
+    (
+        (KC.VOLD, KC.VOLU, KC.MUTE),
+        (KC.MS_WH_UP, KC.MS_WH_DN, KC.TRNS),
+    ),  
+     # Layer 1: BRIGHTNESS
+    (
+        (KC.BRID, KC.BRIU, KC.TRNS),
+        (KC.TRNS, KC.TRNS, KC.TRNS),
+    ),
+    # Layer 2: 
+    (
+        (KC.BRID, KC.BRIU, KC.TRNS),
+        (KC.TRNS, KC.TRNS, KC.TRNS),
+    ), 
+]     
 LOWER = KC.MO(1)
 RAISE = KC.MO(2)
 
