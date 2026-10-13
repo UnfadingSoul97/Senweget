@@ -8,6 +8,7 @@ from kmk.modukles.encoder import EncoderHandler
 from kmk.modules.holdtap import HoldTap
 from kmk.modules.layers import Layers
 from kmk.modules.split import Split, SplitType
+from kmk.extension.rgb import RGB 
 
 senweget = KMKeyboard()
 senweget.name = "Senweget"
@@ -83,9 +84,19 @@ senweget.keymap = [
      LOWER,
      KC.SPC,
      KC.SPC,
-     KC.Raise
-     KC.RGUI,
+     KC.ENT,
+     RAISE,
    ],
 ]
 if __name__ == "__main__":
     senweget.go()
+
+rgb = RGB(
+    pixel=board.GP9,
+    num_pixels=21,
+    val_limit=60,
+    hue_default=160,
+    sat_default=255,
+    val_default=40,
+) 
+senweget.extensions.append(rgb)
