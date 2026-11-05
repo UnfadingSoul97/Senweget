@@ -52,13 +52,20 @@ For the left side the top should be facing todwards the pcb and under the PCB of
 4.Now u can screw it from the underneath using M3. screw pls check the length of the screw needed cuz idk the exact height after printing.
 
 # BOM
-41x - SW_Hotswap_Kailh_MX_Choc_V1_V2   
+41x - SW_Hotswap_Kailh_MX_Choc_V1_V2
+
 2x  - WaveShare RP2040-zero
+
 41x - Gateron KS-3X1 Milky Yellow Pro (https://stackskb.com/store/gateron-ks-3x1p-pro-yellows/)
+
 2x  - Rotatory Encoder
+
 41x - SK6812MINI-E
+
 2x  - PJ-320A
+
 5x  - M3 Screws
+
 41x - N4148 Switching Diodes
 
 
