@@ -2,6 +2,7 @@
 ## A split Corne Keyboard that doubles as a stenograph and a fun fidget which your can customise yourself.
 Here ig it will look good cute frog keycaps.
 <img width="1343" height="423" alt="image" src="https://github.com/user-attachments/assets/700a410d-4b6a-411d-b970-8c1973d6bf35" />
+Link to Project:https://cad.onshape.com/documents/2615d6a32fd601db65ed9c82/w/49b2a2fd03e5ba3a97975127/e/aca29c1b2985c1fb6079fbe5
 
 ---
 I was just living my life and i thought hey i can make stuff in cad now and wanted to push my limit and wanted to make something that was not too hard but still new to make.
